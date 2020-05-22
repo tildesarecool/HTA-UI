@@ -24,14 +24,17 @@ Option Explicit
 'Define global variables for the session.
 Dim objFSO, strComputer, objWMIService, scriptsDirectory, binariesDirectory, _
  colItems, objItem, intHorizontal, intVertical, nLeft, nTop, sItem, helpLocSetting, _
- version, currentDirectory, appName, developerName, developerURL, windowHeight, windowWidth
+ version, currentDirectory, appName, developerName, developerURL, windowHeight, windowWidth, ForkDeveloperName, ForkDeveloperURL
 
 version = "v1.3"
 
 helpLocSetting = "https://github.com/zelon88"
 appName = "HTA-UI"
 developerName = "Justin Grimes"
+ForkDeveloperName = "Tildes"
 developerURL = "https://github.com/zelon88"
+ForkDeveloperURL = "https://github.com/tildesarecool/HTA-UI"
+
 
 windowHeight = 660
 windowWidth = 600
